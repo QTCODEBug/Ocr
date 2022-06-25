@@ -58,6 +58,8 @@ def start_cv(model):
       break
   cap.release()
   cv2.destroyAllWindows()
+  
 
-model=tf.keras.models.load_model('D:\OCR model\epic.model')
+
+model=tf.keras.models.load_model('Ocr\epic.model')
 start_cv(model)
